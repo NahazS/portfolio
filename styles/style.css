@@ -1,0 +1,272 @@
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 150px;
+}
+.nav-title{
+    color: #181818;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 45px;
+    font-weight: 800;   
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: var(--Dark-02, #474747);
+}
+.head{
+    background-color: #FFF8F3;
+    background-image: url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom 30px left;
+}
+.banner{
+    padding: 50px 38px 0px 150px;
+    display: flex;
+    align-items: center;
+    margin-top: -47px;
+    justify-content: space-between;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner-greeting{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+.profile-name{
+    color:#181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: -50px;
+    margin-bottom: -10px;
+}
+.banner p{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.blank{
+    background-color: #FFF8F3;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+    margin-left: 30px;
+}
+.mary-img{
+    width: 584px;
+}
+
+/* About me section */
+
+.about-me{
+    max-width: 1140px;
+    max-height: 550px;
+    margin: 130px auto 0px auto;
+    padding: auto;
+    border-radius: 10px;
+    background: #FFF8F3;    
+}
+.about{
+    padding: 131px 157px;
+}
+.about h3{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.about p{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.details h4{
+    text-align: center;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+}
+.details-info{
+    display: inline;
+    text-align: center;
+}
+.details-info h4{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+/* What I do section */
+
+.what-i-do{
+    max-width: 1140px;
+    max-height: 550px;
+    margin: 130px auto 0px auto;
+    padding: auto;
+}
+.what-i-do h3{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.what-i-do p{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.skills{
+    display: flex;
+}
+.skill{
+    width: 267px;
+    height: 377px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin-top: 50px;
+    margin-right: 24px;
+    padding: 30px 0 0 30px;
+}
+.skill h4{
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+}
+.skill p{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+/* summary */
+.summary{
+    max-width: 1140px;
+    margin: 200px auto 0px auto;
+    padding: auto;
+}
+.summary h3{
+    color:#181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.eduexp{
+    display: flex;
+    justify-content: space-between;
+}
+.education h4{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.edu h5{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+.edu h6{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+.edu p{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+}
+#sum-btn{
+    margin-top: 50px;
+    margin-left: 500px;
+}
+/* footer */
+footer{
+    height: 780px;
+    margin-top: 113px;
+    background-color: #FFF8F3;
+}
+.foot{
+    max-width: 1650px;
+    max-height: 550px;
+    margin: 130px auto 0px auto;
+    padding-top: 130px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.connect{
+    padding: 130px 250px 0px 230px;
+}
+.message{
+    margin-top: 130px;
+    margin-right: 350px;
+    max-width: 300px;
+}
+.mess{
+    color:#181818;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+}
+.connect p{
+    color: var(--Dark-02, #474747);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+}
+
+
+.input-message{
+    width: 461px;
+    height: 64px;
+    padding-left: 30px;
+    border: 0;
+    border-radius: 5px;
+    background:  #FFF;
+    margin-bottom: 28px;
+    
+}
+.big-message{
+    padding-left: 30px;
+    border: 0;
+    border-radius: 5px;
+    background:  #FFF;
+}
+
